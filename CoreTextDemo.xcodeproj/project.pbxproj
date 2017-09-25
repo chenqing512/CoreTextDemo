@@ -13,6 +13,8 @@
 		160E28E11F46AE1F004AEDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160E28DF1F46AE1F004AEDD4 /* Main.storyboard */; };
 		160E28E31F46AE1F004AEDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160E28E21F46AE1F004AEDD4 /* Assets.xcassets */; };
 		160E28E61F46AE1F004AEDD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160E28E41F46AE1F004AEDD4 /* LaunchScreen.storyboard */; };
+		160E28EF1F46AE6B004AEDD4 /* XYCTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 160E28EE1F46AE6B004AEDD4 /* XYCTView.m */; };
+		160E28F11F46E50F004AEDD4 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 160E28F01F46E50F004AEDD4 /* logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		160E28E21F46AE1F004AEDD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		160E28E51F46AE1F004AEDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		160E28E71F46AE1F004AEDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160E28ED1F46AE6B004AEDD4 /* XYCTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCTView.h; sourceTree = "<group>"; };
+		160E28EE1F46AE6B004AEDD4 /* XYCTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCTView.m; sourceTree = "<group>"; };
+		160E28F01F46E50F004AEDD4 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				160E28DA1F46AE1F004AEDD4 /* AppDelegate.m */,
 				160E28DC1F46AE1F004AEDD4 /* ViewController.h */,
 				160E28DD1F46AE1F004AEDD4 /* ViewController.m */,
+				160E28ED1F46AE6B004AEDD4 /* XYCTView.h */,
+				160E28EE1F46AE6B004AEDD4 /* XYCTView.m */,
+				160E28F01F46E50F004AEDD4 /* logo@2x.png */,
 				160E28DF1F46AE1F004AEDD4 /* Main.storyboard */,
 				160E28E21F46AE1F004AEDD4 /* Assets.xcassets */,
 				160E28E41F46AE1F004AEDD4 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				160E28E61F46AE1F004AEDD4 /* LaunchScreen.storyboard in Resources */,
+				160E28F11F46E50F004AEDD4 /* logo@2x.png in Resources */,
 				160E28E31F46AE1F004AEDD4 /* Assets.xcassets in Resources */,
 				160E28E11F46AE1F004AEDD4 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160E28EF1F46AE6B004AEDD4 /* XYCTView.m in Sources */,
 				160E28DE1F46AE1F004AEDD4 /* ViewController.m in Sources */,
 				160E28DB1F46AE1F004AEDD4 /* AppDelegate.m in Sources */,
 				160E28D81F46AE1F004AEDD4 /* main.m in Sources */,

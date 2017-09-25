@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XYCTView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    XYCTView *view=[[XYCTView alloc]initWithFrame:self.view.frame];
+    view.backgroundColor=[UIColor lightGrayColor];
+    [self.view addSubview:view];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
